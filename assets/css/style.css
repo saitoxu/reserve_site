@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'UmeFont';
+    src: url('../wf/ume-pmo3.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'UmeFont';
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+#header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #000;
+}
+
+#header_inner {
+    position: relative;
+    width: 940px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+#menu {
+    float: right;
+    list-style: none outside none;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#key_image {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    /* Firefox */
+    background: -moz-linear-gradient(top center, #002 0%, #fff 100%);
+    /* Chrom と Safari */
+    background: -webkit-gradient(linear, center top, center bottom, from(#002), to(#fff));
+    /* 共通 */
+    background: linear-gradient(top center, #002 0%, #fff 100%);
+}
+
+#key_image img {
+    display: block;
+    margin: 0 auto;
+}
+
+#content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#detail {
+    padding-top: 60px;
+}
+
+#detail h2 {
+    display: block;
+    width: 100%;
+    border-bottom: medium solid #555;
+}
+
+#detail p {
+    padding: 10px 0;
+    text-align: left;
+    line-height: 150%;
+    display: block;
+    width: 530px;
+    margin-right: 10px;
+    float: left;
+}
+
+#detail iframe {
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+#members {
+    clear: both;
+    padding-top: 60px;
+}
+
+#members h2 {
+    display: block;
+    width: 100%;
+    border-bottom: medium solid #555;
+}
+
+#members p {
+    padding: 10px 0;
+    line-height: 150%;
+}
+
+.member {
+    float: left;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.member_center {
+    margin: 20px 20px;
+}
+
+.member img {
+    float: left;
+    margin-right: 10px;
+}
+
+.member .name {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.member .intro {
+    font-size: smaller;
+}
+
+#reserve {
+    clear: both;
+    padding-top: 60px;
+}
+
+#reserve h2 {
+    display: block;
+    width: 100%;
+    border-bottom: medium solid #555;
+}
+
+#reserve p {
+    padding: 10px 0;
+    line-height: 150%;
+}
+
+#info {
+    padding-top: 60px;
+}
+
+#info h2 {
+    display: block;
+    width: 100%;
+    border-bottom: medium solid #555;
+}
+
+#info p {
+    padding: 10px 0;
+    line-height: 150%;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 60px;
+    padding: 30px 0;
+    background: #000;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}
