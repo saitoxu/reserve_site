@@ -41,7 +41,7 @@ a:hover {
 
 #header_inner {
     position: relative;
-    width: 940px;
+    max-width: 940px;
     height: 40px;
     margin: 10px auto;
 }
@@ -59,19 +59,59 @@ a:hover {
 }
 
 #key_image {
+    min-width: 940px;
     padding-top: 80px;
     padding-bottom: 20px;
     /* Firefox */
-    background: -moz-linear-gradient(top center, #002 0%, #fff 100%);
+    background: -moz-linear-gradient(top center, #600 0%, #fff 100%);
     /* Chrom と Safari */
-    background: -webkit-gradient(linear, center top, center bottom, from(#002), to(#fff));
+    background: -webkit-gradient(linear, center top, center bottom, from(#600), to(#fff));
     /* 共通 */
-    background: linear-gradient(top center, #002 0%, #fff 100%);
+    background: linear-gradient(top center, #600 0%, #fff 100%);
+    background: #999;
 }
 
 #key_image img {
     display: block;
     margin: 0 auto;
+}
+
+.sns-content {
+    width: 940px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.sns-right {
+    float: right;
+}
+
+#twitter-widget-0 {
+    width: 90px !important;
+}
+
+#form_link {
+    padding-top: 40px;
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#form_link button {
+    width: 240px;
+    display: block;
+    background: black;
+    margin: 0 auto;
+    font-size: xx-large;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #ccc;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #content {
@@ -86,7 +126,7 @@ a:hover {
 #detail h2 {
     display: block;
     width: 100%;
-    border-bottom: medium solid #555;
+    border-bottom: medium solid #002;
 }
 
 #detail p {
@@ -113,7 +153,7 @@ a:hover {
 #members h2 {
     display: block;
     width: 100%;
-    border-bottom: medium solid #555;
+    border-bottom: medium solid #002;
 }
 
 #members p {
@@ -154,7 +194,7 @@ a:hover {
 #reserve h2 {
     display: block;
     width: 100%;
-    border-bottom: medium solid #555;
+    border-bottom: medium solid #002;
 }
 
 #reserve p {
@@ -169,7 +209,7 @@ a:hover {
 #info h2 {
     display: block;
     width: 100%;
-    border-bottom: medium solid #555;
+    border-bottom: medium solid #002;
 }
 
 #info p {
