@@ -91,27 +91,15 @@ a:hover {
 }
 
 #form_link {
-    padding-top: 40px;
+    padding-top: 20px;
     clear: both;
     width: 940px;
     margin: 0 auto;
 }
 
-#form_link button {
-    width: 240px;
+#form_link img {
     display: block;
-    background: black;
     margin: 0 auto;
-    font-size: xx-large;
-    border-top: 1px solid #ccc;
-    border-right: 1px solid #999;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #ccc;
-    padding: 10px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
 }
 
 #content {
@@ -177,13 +165,9 @@ a:hover {
 }
 
 .member .name {
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
     margin-bottom: 10px;
-}
-
-.member .intro {
-    font-size: smaller;
 }
 
 #reserve {
